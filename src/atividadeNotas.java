@@ -9,16 +9,16 @@ public class atividadeNotas {
         System.out.println("informe a media");
         media = scanner.nextInt();
 
-        // Verificar se a pessoa é maior de idade
+
         if (media >= 9) {
-            // mensagem se for maior de idade
+
             System.out.println("Exc");
         } else if (media >= 7) {
             System.out.println("BOM");
         } else if (media >= 5) {
             System.out.println("Satisfatório");
         } else {
-            // mensagem se for menor de idade
+
             System.out.println("Insatisfatório");
         }
     }
